@@ -1,0 +1,45 @@
+.profile-container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+}
+
+.profile-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #333;
+}
+
+.profile-item {
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #555;
+}
+
+.error-message {
+  color: red;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.loading {
+  text-align: center;
+  font-size: 18px;
+  color: #666;
+}
+
+.profile-avatar {
+  width: 150px; /* Adjust the width of the profile image */
+  height: 150px; /* Adjust the height of the profile image */
+  border-radius: 50%; /* Make the profile image circular */
+  object-fit: cover; /* Crop and fill the frame while maintaining aspect ratio */
+  object-position: center; /* Center the image within the frame */
+  display: block; /* Treat the image as a block-level element */
+  margin: 0 auto; /* Center the image horizontally within the container */
+}
